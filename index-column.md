@@ -17,3 +17,6 @@ Route::get('user-data', function() {
 
 Using `addIndexColumn` will add another column on your response with a column name that is set on [`index_column`](/docs/{{package}}/{{version}}/general-settings#index-column) configuration.
 The default index column name is `DT_RowIndex`
+
+
+# note : sorting/searching wont work with this column, you need to disable sorting and searching or else it will give error's
